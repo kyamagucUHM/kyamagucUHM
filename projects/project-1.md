@@ -1,61 +1,48 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/3D_m4.png
+title: 3D Models - Game Design and 3D Printing
+permalink: projects/3dmodels
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2017 - Present
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - 3D Graphics
+  - Softimage XSI
+  - 3D Printing
+summary: 3D Model Projects
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+  Ongoing off and on 3D hobby work that started with an eye towards use in video game modifications.
+Originally started out years ago with projects in the now defunct Gmax 3D application making models
+for Grand Theft Auto San Andreas, those projects never made it ingame but laid the foundation for
+building my techniques once I delved further into the discipline.  When I got involved in the Star Wars
+Battlefront modding community, I increased the rate of asset creation and tackled a wide range of items,
+from vehicles, to weapons, to fully rigged character models.  A few of my released models (under the screen
+name vf501) saw and or still see a fair amount of use in popular mods for the game.
+  After taking a hiatus from the community I worked towards developing my skills further and started to teach
+myself next-gen asset creation starting with Hard-Surface subdivision modeling and 3D Sculpting. Nothing at 
+this stage made it into any games as my attention in this area dropped, however I did build up a good amount
+of skill in this area.  Skill that with the increase in availability of 3D printing I plan to leverage in order
+to make products such as toy part replacements, miniatures and project parts as needed.
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/3D_dc17m.png">
+</div>
 
-To give you a flavor of the game, here is an excerpt from one run:
 
-<hr>
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+```js
+byte ADCRead(byte ch)
+{
+    word value;
+    ADC1SC1 = ch;
+    while (ADC1SC1_COCO != 1)
+    {   // wait until ADC conversion is completed   
+    }
+    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
+}
+```
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
 
