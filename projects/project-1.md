@@ -1,16 +1,16 @@
 ---
 layout: project
 type: project
-image: images/3D_M4.png
+image: images/3D_m4.png
 title: 3D Models - Game Design and 3D Printing
-permalink: projects/
+permalink: projects/3dmodels
 # All dates must be YYYY-MM-DD format!
 date: 2017 - Present
 labels:
   - 3D Graphics
   - Softimage XSI
   - 3D Printing
-summary: 
+summary: 3D Model Projects
 ---
 
   Ongoing off and on 3D hobby work that started with an eye towards use in video game modifications.
