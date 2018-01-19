@@ -13,6 +13,12 @@ labels:
 summary: 3D Model Projects
 ---
 
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/3D_dc17m.png">
+  <img class="ui image" src="../images/AlienWIP3.png">
+  <img class="ui image" src="../images/WarriorSculptWIP.png">
+</div>
+
   Ongoing off and on 3D hobby work that started with an eye towards use in video game modifications.
 Originally started out years ago with projects in the now defunct Gmax 3D application making models
 for Grand Theft Auto San Andreas, those projects never made it ingame but laid the foundation for
@@ -25,24 +31,6 @@ myself next-gen asset creation starting with Hard-Surface subdivision modeling a
 this stage made it into any games as my attention in this area dropped, however I did build up a good amount
 of skill in this area.  Skill that with the increase in availability of 3D printing I plan to leverage in order
 to make products such as toy part replacements, miniatures and project parts as needed.
-
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/3D_dc17m.png">
-</div>
-
-
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
 
 
 
