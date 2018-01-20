@@ -21,27 +21,6 @@ summary: Early Programming Projects from EE150
   
 The Main Algorithm that solves Gauss-Jordan, rest of the program was reading in the arrays
 and printing the final output to the screen.
-```C
-for(k=0; k<m; k++)
-    {
-         pivot = a[k][k];
-         for(t=0; t<m+1; t++)
-         {
-             a[k][t] = a[k][t]/pivot;
-         }
-         t=0;        
-         for(j=0; j<m; j++)
-         {
-             hold = a[j][k];
-             for(t=0; t<m+1; t++)
-             {
-                  if(j != k)
-                  {
-                      a[j][t] = a[j][t] - a[k][t]*hold;
-                  }
-             }
-         }       
-    }
-    ```
+
 
 
