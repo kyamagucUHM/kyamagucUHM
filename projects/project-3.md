@@ -25,6 +25,7 @@ that lack elegence.
 
 An overly large while loop from a Book Store Catalog assigment
 -----------------------------------------------------------------------------------------------------------
+```C
 while (bValid){
          try{
             System.out.print("Enter title:");
@@ -67,3 +68,4 @@ while (bValid){
                break;
             }
          }
+```
