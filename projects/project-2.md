@@ -13,10 +13,6 @@ labels:
 summary: Early Programming Projects from EE150
 ---
 
-<div class="ui small rounded images">
-
-</div>
-
   First real experience with programming as a problem solving medium was in EE150.
   The focus was to make basic programs to solve practical math based problems, extending
   into calculus II level math and using loops to approximate their solutions.  The final
