@@ -1,16 +1,15 @@
 ---
 layout: project
 type: project
-image: images/index.jpg
-title: Early Programming Experience
-permalink: projects/problemsolvinginc
+image: images/code.png
+title: First Projects in C
+permalink: projects/ccodeproblems
 # All dates must be YYYY-MM-DD format!
 date: 2011-12-14
 labels:
-  - EE150
   - C Code
+  - EE 150
   - Calculus
-summary: Early Programming Projects from EE150
+summary: First Projects in C Code
 ---
-
 
