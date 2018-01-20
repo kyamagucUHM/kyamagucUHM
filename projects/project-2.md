@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/index.png
+image: images/code.png
 title: Early Programming Experience
 permalink: projects/problemsolvinginc
 # All dates must be YYYY-MM-DD format!
