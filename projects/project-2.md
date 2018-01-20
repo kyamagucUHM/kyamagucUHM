@@ -10,7 +10,6 @@ labels:
   - EE150
   - C Code
   - Calculus
-  - Physics
 summary: Early Programming Projects from EE150
 ---
 
