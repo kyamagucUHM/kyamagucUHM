@@ -13,7 +13,7 @@ labels:
 summary: 3D Model Projects
 ---
 
-<div class="ui small rounded images">
+<div class="ui medium rounded images">
   <img class="ui image" src="../images/3d_dc17m.png">
   <img class="ui image" src="../images/haloeliteswbf.jpg">
   <img class="ui image" src="../images/AlienWIP3.png">
