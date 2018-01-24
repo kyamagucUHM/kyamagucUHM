@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/code.png
+image: images/
 title: First Projects in C
 permalink: projects/ccodeproblems
 # All dates must be YYYY-MM-DD format!
