@@ -20,6 +20,7 @@ in order to provide an experience where students can exchange unwanted items for
 for another.  No member of the group had much experience with website ascetics, so a simple design and layout based
 on the UH colors was selected by the group.  We discussed the neccessary features needed for the exchange of items
 and what would be required for users to engage with each other.
+
   Major challenges included the implementation of User profiles that contained the needed information.  The profiles
 were implemented using Meteor Collections and layered over the Meter User profile system. The biggest issue was soft
 linking the custom profile system to the Meteor User system used to login into the site.  Then linking the custom
@@ -27,6 +28,7 @@ profile system to the item listings and having them call back to each other when
 fleshed out due to a lack of indepth knowledge of how to manipulate Meteor Subscribe functions and collections in the
 specific way we needed to.  Late in development a workable implementation was prototyped but was unable to be finalized
 due to some errors in execution.
+
   Other features left out of the final release were a messaging system, item search, want listing and item offer
 indicators. Some of these features were beyond the scope of the group abilities, others were left out due to lack of time
 caused by relative inexperience with Meteor React that left us hammering out issues with implementing other parts of the
@@ -36,6 +38,7 @@ Primary example of this would be restrict item listing to a general list first, 
 fully along with the individual item card pages then expand into categories and custom searches.  Another option would be
 to restructure the Item List into a page of the Item Collection as Cards instead of a table and eschew the need to have 
 separate links to each item in the table.
+
   Overall I feel that the project was a great experience in learning collaborative development environments and a way to
 foster a group work mindset.  Despite failing to meet all goals that we as a group set, the failures incurred provided
 an opportunity to learn things not to do when planning a project of this size and how not to underestimate the requirements.
