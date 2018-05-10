@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/UHSwapShop_Landing_Mockup.png
+image: images/UHSwapShop_Landing_MockUp.png
 title: UH Swap Shop Final Project
 permalink: projects/UHSwapshop
 # All dates must be YYYY-MM-DD format!
